@@ -1,4 +1,4 @@
-# 简介 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Loyalsoldier/v2ray-rules-dat/total?logo=github) ![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/Loyalsoldier/v2ray-rules-dat/latest/total?logo=github) [![jsdelivr stats](https://data.jsdelivr.com/v1/package/gh/Loyalsoldier/v2ray-rules-dat/badge?style=rounded)](https://www.jsdelivr.com/package/gh/Loyalsoldier/v2ray-rules-dat)
+# 简介 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Loukky/v2ray-rules-dat/total?logo=github) ![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/Loukky/v2ray-rules-dat/latest/total?logo=github) [![jsdelivr stats](https://data.jsdelivr.com/v1/package/gh/Loukky/v2ray-rules-dat/badge?style=rounded)](https://www.jsdelivr.com/package/gh/Loukky/v2ray-rules-dat)
 
 [**V2Ray**](https://github.com/v2fly/v2ray-core) 路由规则文件加强版，可代替 V2Ray 官方 `geoip.dat` 和 `geosite.dat`，适用于 [V2Ray](https://github.com/v2fly/v2ray-core)、[Xray-core](https://github.com/XTLS/Xray-core)、[mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)、[hysteria](https://github.com/apernet/hysteria)、[Trojan-Go](https://github.com/p4gefau1t/trojan-go)、[leaf](https://github.com/eycorsican/leaf) 和所有使用上述内核的图形用户界面（GUI）版代理软件。使用 GitHub Actions 北京时间每天早上 6 点自动构建，保证规则最新。
 
@@ -6,8 +6,8 @@
 
 ### geoip.dat
 
-- 通过仓库 [@Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip) 生成
-- 默认使用 [MaxMind GeoLite2 Country CSV 数据](https://github.com/Loyalsoldier/geoip/blob/release/GeoLite2-Country-CSV.zip)生成各个国家和地区的 GeoIP 文件。所有可供使用的国家和地区 geoip 类别（如 `geoip:cn`，两位英文字母表示国家或地区），请查看：[https://www.iban.com/country-codes](https://www.iban.com/country-codes)
+- 通过仓库 [@Loukky/geoip](https://github.com/Loukky/geoip) 生成
+- 默认使用 [MaxMind GeoLite2 Country CSV 数据](https://github.com/Loukky/geoip/blob/release/GeoLite2-Country-CSV.zip)生成各个国家和地区的 GeoIP 文件。所有可供使用的国家和地区 geoip 类别（如 `geoip:cn`，两位英文字母表示国家或地区），请查看：[https://www.iban.com/country-codes](https://www.iban.com/country-codes)
 - 中国大陆 (`geoip:cn`) IPv4 地址数据使用 [@gaoyifan/china-operator-ip](https://github.com/gaoyifan/china-operator-ip/blob/ip-lists/china.txt)
 - 中国大陆 (`geoip:cn`) IPv6 地址数据使用 [@gaoyifan/china-operator-ip](https://github.com/gaoyifan/china-operator-ip/blob/ip-lists/china6.txt)
 - 新增类别（方便有特殊需求的用户使用）：
@@ -21,7 +21,7 @@
   - `geoip:twitter`
   - `geoip:tor`
 
-> 希望定制 `geoip.dat` 文件？需要适用于其他代理软件的 GeoIP 格式文件？查看项目 [@Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip)。
+> 希望定制 `geoip.dat` 文件？需要适用于其他代理软件的 GeoIP 格式文件？查看项目 [@Loukky/geoip](https://github.com/Loukky/geoip)。
 
 ### geosite.dat
 
@@ -55,41 +55,41 @@
 > *.sha256sum 为校验文件。
 
 - **geoip.dat**：
-  - [https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat](https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat)
+  - [https://github.com/Loukky/v2ray-rules-dat/releases/latest/download/geoip.dat](https://github.com/Loukky/v2ray-rules-dat/releases/latest/download/geoip.dat)
+  - [https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/geoip.dat](https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/geoip.dat)
 - **geosite.dat**：
-  - [https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat](https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat)
+  - [https://github.com/Loukky/v2ray-rules-dat/releases/latest/download/geosite.dat](https://github.com/Loukky/v2ray-rules-dat/releases/latest/download/geosite.dat)
+  - [https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/geosite.dat](https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/geosite.dat)
 - **直连域名列表 direct-list.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/direct-list.txt](https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/direct-list.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/direct-list.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/direct-list.txt)
+  - [https://raw.githubusercontent.com/Loukky/v2ray-rules-dat/release/direct-list.txt](https://raw.githubusercontent.com/Loukky/v2ray-rules-dat/release/direct-list.txt)
+  - [https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/direct-list.txt](https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/direct-list.txt)
 - **代理域名列表 proxy-list.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/proxy-list.txt](https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/proxy-list.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/proxy-list.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/proxy-list.txt)
+  - [https://raw.githubusercontent.com/Loukky/v2ray-rules-dat/release/proxy-list.txt](https://raw.githubusercontent.com/Loukky/v2ray-rules-dat/release/proxy-list.txt)
+  - [https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/proxy-list.txt](https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/proxy-list.txt)
 - **广告域名列表 reject-list.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt](https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/reject-list.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/reject-list.txt)
+  - [https://raw.githubusercontent.com/Loukky/v2ray-rules-dat/release/reject-list.txt](https://raw.githubusercontent.com/Loukky/v2ray-rules-dat/release/reject-list.txt)
+  - [https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/reject-list.txt](https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/reject-list.txt)
 - **@felixonmars/dnsmasq-china-list 仓库收集的在中国大陆可直连的域名列表 china-list.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/china-list.txt](https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/china-list.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/china-list.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/china-list.txt)
+  - [https://raw.githubusercontent.com/Loukky/v2ray-rules-dat/release/china-list.txt](https://raw.githubusercontent.com/Loukky/v2ray-rules-dat/release/china-list.txt)
+  - [https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/china-list.txt](https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/china-list.txt)
 - **Apple 在中国大陆可直连的域名列表 apple-cn.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/apple-cn.txt](https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/apple-cn.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/apple-cn.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/apple-cn.txt)
+  - [https://raw.githubusercontent.com/Loukky/v2ray-rules-dat/release/apple-cn.txt](https://raw.githubusercontent.com/Loukky/v2ray-rules-dat/release/apple-cn.txt)
+  - [https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/apple-cn.txt](https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/apple-cn.txt)
 - **Google 在中国大陆可直连的域名列表 google-cn.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/google-cn.txt](https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/google-cn.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/google-cn.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/google-cn.txt)
+  - [https://raw.githubusercontent.com/Loukky/v2ray-rules-dat/release/google-cn.txt](https://raw.githubusercontent.com/Loukky/v2ray-rules-dat/release/google-cn.txt)
+  - [https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/google-cn.txt](https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/google-cn.txt)
 - **GFWList 域名列表 gfw.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt](https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/gfw.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/gfw.txt)
+  - [https://raw.githubusercontent.com/Loukky/v2ray-rules-dat/release/gfw.txt](https://raw.githubusercontent.com/Loukky/v2ray-rules-dat/release/gfw.txt)
+  - [https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/gfw.txt](https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/gfw.txt)
 - **Windows 操作系统使用的隐私跟踪域名列表 win-spy.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/win-spy.txt](https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/win-spy.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/win-spy.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/win-spy.txt)
+  - [https://raw.githubusercontent.com/Loukky/v2ray-rules-dat/release/win-spy.txt](https://raw.githubusercontent.com/Loukky/v2ray-rules-dat/release/win-spy.txt)
+  - [https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/win-spy.txt](https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/win-spy.txt)
 - **Windows 操作系统使用的系统升级域名列表 win-update.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/win-update.txt](https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/win-update.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/win-update.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/win-update.txt)
+  - [https://raw.githubusercontent.com/Loukky/v2ray-rules-dat/release/win-update.txt](https://raw.githubusercontent.com/Loukky/v2ray-rules-dat/release/win-update.txt)
+  - [https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/win-update.txt](https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/win-update.txt)
 - **Windows 操作系统使用的附加隐私跟踪域名列表 win-extra.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/win-extra.txt](https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/win-extra.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/win-extra.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/win-extra.txt)
+  - [https://raw.githubusercontent.com/Loukky/v2ray-rules-dat/release/win-extra.txt](https://raw.githubusercontent.com/Loukky/v2ray-rules-dat/release/win-extra.txt)
+  - [https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/win-extra.txt](https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/win-extra.txt)
 
 ## 规则文件使用方式
 
@@ -138,7 +138,7 @@
 ```yaml
 geodata-mode: true
 geox-url:
-  geoip: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat"
+  geoip: "https://cdn.jsdelivr.net/gh/Loukky/v2ray-rules-dat@release/geoip.dat"
 ```
 </details>
 
@@ -483,7 +483,3 @@ steamstatic.com.8686c.com @cn
 - [@PeterLowe/adservers](https://pgl.yoyo.org/adservers)
 - [@DanPollock/hosts](https://someonewhocares.org/hosts)
 - [@crazy-max/WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker)
-
-## 项目 Star 数增长趋势
-
-[![Stargazers over time](https://starchart.cc/Loyalsoldier/v2ray-rules-dat.svg)](https://starchart.cc/Loyalsoldier/v2ray-rules-dat)
